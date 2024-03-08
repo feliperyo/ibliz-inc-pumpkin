@@ -228,7 +228,81 @@ footer button:hover {
     }
 }
 
+
 @media screen and (max-width:1550px) {
+
+    .header-left {
+        margin-left: 50px;
+
+    }
+
+    .header-right {
+        width: 80vw;
+        margin-left: 40%;
+        gap: 50px;
+    }
+
+    .login {
+        margin-left: 0;
+        margin-right: 85px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .pumpkin {
+        width: 500px;
+        height: auto;
+        top: -150px;
+        left: 0px;
+    }
+
+    .responsividade {
+        width: 300px;
+        height: 200px;
+        margin: 100px 250px 0px 300px;
+    }
+
+    h3 {
+        margin-top: 120px;
+        margin-left: -150px;
+    }
+
+    .container-right {
+        width: 600px;
+        height: 300px;
+        margin-top: -200px;
+        margin-left: -300px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .container-actions {
+        width: 300px;
+        margin-left: 100px;
+    }
+
+    footer {
+        margin-bottom: 50px;
+        margin-top: -50px;
+    }
+
+}
+
+@media screen and (max-width:1030px) {
     .header-right {
         display: none;
     }
@@ -258,14 +332,16 @@ footer button:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 800px;
+        margin: 800px auto 0 auto;
         text-align: center;
+        width: 500px;
+        height: 378px;
     }
 
     .responsividade {
-        margin-top: -450px;
+        margin-top: -150px;
         position: absolute;
-        left: 40%;
+        left: 10%;
     }
 
     .ping {
@@ -275,26 +351,49 @@ footer button:hover {
     footer button {
         margin: 250px 0px 10px 0px;
     }
+
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 68px;
+        margin-top: 14px;
+        margin-bottom: 25px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .container-actions {
+        width: 100%;
+        gap: 200px;
+        margin: 50px auto 0 auto;
+    }
 }
 
 @media screen and (max-width: 500px) {
 
-    .header-left {
-        margin-left: 30px;
+    body{
         width: 100vw;
     }
 
-    .header-right {
-        margin-left: -10%;
-        gap: 0px;
+
+    .header-left {
+        margin-left: 30px;
+        margin-right: 100px;
+        width: 100vw;
     }
 
     .login {
-        margin-left: -37%;
+        margin-left: 11%;
     }
 
     .pumpkin {
         top: -100px;
+        margin-left: -10px;
     }
 
     .container-right {
@@ -310,9 +409,11 @@ footer button:hover {
     }
 
     .responsividade {
-        margin-top: -500px;
+        margin-top: -230px;
         position: absolute;
-        left: 50%;
+        left: 0%;
+        margin-left: 220px;
+        width: 10px;
     }
 
     .container-actions {
