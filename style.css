@@ -396,7 +396,7 @@ footer button:hover {
 
 @media screen and (max-width: 500px) {
 
-    body{
+    body {
         width: 100vw;
     }
 
@@ -442,5 +442,30 @@ footer button:hover {
 
     footer button {
         margin-top: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .header-left {
+        margin-right: 75px;
+    }
+
+    .pumpkin {
+        width: 350px;
+        top: -70px;
+        margin-left: -0px;
+    }
+
+    .container-right {
+        margin-top: 750px;
+    }
+
+    .responsividade {
+        margin-top: -150px;
+    }
+
+    footer button {
+        margin-top: 450px;
     }
 }
