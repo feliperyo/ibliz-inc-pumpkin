@@ -445,6 +445,20 @@ footer button:hover {
     }
 }
 
+@media screen and (max-height: 800px) {
+    .responsividade {
+        margin-top: -130px;
+    }
+
+    .container-right {
+        margin-top: 780px;
+    }
+
+    footer button {
+        margin-top: 425px;
+    }
+}
+
 @media screen and (max-width: 400px) {
 
     .header-left {
