@@ -281,7 +281,7 @@ footer button:hover {
     .responsividade {
         width: 300px;
         height: 200px;
-        margin: 100px 250px 0px 300px;
+        margin: 150px 250px 0px 300px;
     }
 
     h3 {
@@ -322,24 +322,21 @@ footer button:hover {
 
 }
 
-@media screen and (max-width:1030px) {
+
+@media screen and (max-width:1050px) {
     .header-right {
         display: none;
     }
 
-    .header-left {
-        margin-left: 50px;
-    }
-
     .login {
-        margin-left: 60%;
+        margin-left: 70%;
     }
 
     .pumpkin {
-        width: 100%;
+        width: 900px;
         height: auto;
         top: -330px;
-        left: -5%;
+        left: -0%;
     }
 
     main {
@@ -392,6 +389,26 @@ footer button:hover {
         gap: 200px;
         margin: 50px auto 0 auto;
     }
+}
+
+@media screen and (max-width:1000px) {
+
+
+    .header-left {
+        margin-left: 50px;
+    }
+
+    .login {
+        margin-left: 60%;
+    }
+
+    .pumpkin {
+        width: 100%;
+        top: -330px;
+        left: -5%;
+    }
+
+
 }
 
 @media screen and (max-width: 500px) {
