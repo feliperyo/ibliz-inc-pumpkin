@@ -1,5 +1,5 @@
 <h1 align="center">
-  Ibliz Inc</h1>
+  Ibliz Inc Pumpkin</h1>
 <br>
 <h3 align="center">Estudo de HTML, CSS e Responsividade.</h3>
 <br>
